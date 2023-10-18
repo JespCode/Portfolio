@@ -1,0 +1,12 @@
+/* CSS Variables */
+
+:root {
+  /*COLORS*/
+  --color-primary-bg: #caf0f8; /*BG color applied to body. */
+  --color-secondary-bg: #b8e4ec; /*BG color applied to nav header/footer*/
+  --color-hover-bg: #b8c1ec; /* BG Color used for hovered elements like anchors and buttons */
+  --color-text-heading: #023e8a; /*Color used for Hx elements */
+  --color-main-blue: #03045e; /*Dark blue used for many text elements, borders and more*/
+  --color-main-border: #00b4d8; /*Color used for image and button borders*/
+  --color-collapsible: #caddf8; /*Color used for collapsible button and bg for its content*/
+}

@@ -1,0 +1,27 @@
+/* CSS for content related to Javascript functionality. Buttons, collapsibles and so on. */
+
+/* Button for collapsible. */
+.collapsible {
+  background-color: var(--color-collapsible);
+  color: var(--color-main-blue);
+  cursor: pointer;
+  padding: 1em;
+  border: var(--color-main-border) 2px solid;
+  text-align: left;
+  outline: none;
+  font-size: 1.17em;
+  border-radius: 3em;
+}
+
+/* Collapsible content. */
+.collcontent {
+  display: none;
+  overflow: hidden;
+  background-color: var(--color-collapsible);
+}
+
+/* Behavior of collapsible button on hover. */
+.active,
+.collapsible:hover {
+  background-color: var(--color-hover-bg);
+}
