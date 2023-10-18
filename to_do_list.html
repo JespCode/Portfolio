@@ -5,26 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To-Do List</title>
     <link rel="stylesheet" href="css/to-do-list-styles.css" />
+    <link rel="stylesheet" href="css/root-variables.css" />
+    <link rel="stylesheet" href="css/header-footer.css" />
     <script src="javascript/toDoList.js" defer></script>
   </head>
   <body>
-    <section>
-      <div class="container">
-        <h1>TO-DO LIST</h1>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <label for="task-input">Enter your task here:</label>
-        <input type="text" id="task-input" placeholder="My Task" />
-        <button id="add-task">Add Task</button>
-        <button id="clear-tasks">Delete All Tasks</button>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <ul id="task-list"></ul>
-      </div>
-    </section>
+    <header>
+      <nav>
+        <div class="flex-container-nav">
+          <a href="index.html" title="You are here, my main page.">
+            <div class="nav-item">Home</div></a
+          >
+          <a href="projects.html" title="Link to my projects page.">
+            <div class="nav-item">Projects</div></a
+          >
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <h1>TO-DO LIST</h1>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <label for="task-input"
+            >Enter your task here<br />Use the button or enter to add:</label
+          >
+          <input type="text" id="task-input" placeholder="My Task" />
+          <button id="add-task">Add Task</button>
+          <button id="clear-tasks">Delete All Tasks</button>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <ul id="task-list"></ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Contact me via email at <strong>Jespeon@gmail.com</strong> or find me as
+        <strong>jespeon</strong> on Discord.
+      </p>
+    </footer>
   </body>
 </html>

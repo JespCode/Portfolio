@@ -1,13 +1,13 @@
 body {
-  background-color: #caf0f8;
+  background-color: var(--color-primary-bg);
 }
 
 h1 {
-  color: #023e8a;
+  color: var(--color-text-heading);
 }
 
 p {
-  color: #03045e;
+  color: var(--color-main-blue);
 }
 
 .container {
@@ -22,4 +22,17 @@ p {
 select,
 input {
   margin-right: 10px;
+}
+
+/* 768px Media Query Breakpoint */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  select,
+  input {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 }

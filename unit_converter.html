@@ -5,34 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Unit Converter</title>
     <link rel="stylesheet" href="css/unit-converter-styles.css" />
+    <link rel="stylesheet" href="css/root-variables.css" />
+    <link rel="stylesheet" href="css/header-footer.css" />
     <script src="javascript/unitConverter.js" defer></script>
   </head>
   <body>
-    <div class="container">
-      <h1>Unit Converter</h1>
-    </div>
-    <div class="container">
-      <label for="userInput">Enter a value: </label>
-      <input type="number" id="userInput" />
+    <header>
+      <nav>
+        <div class="flex-container-nav">
+          <a href="index.html" title="You are here, my main page.">
+            <div class="nav-item">Home</div></a
+          >
+          <a href="projects.html" title="Link to my projects page.">
+            <div class="nav-item">Projects</div></a
+          >
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <h1>Unit Converter</h1>
+      </div>
+      <div class="container">
+        <label for="userInput">Enter a value: </label>
+        <input type="number" id="userInput" />
 
-      <label for="from">From:</label>
-      <select name="from" id="from">
-        <option value="Celsius">Celsius</option>
-        <option value="Fahrenheit">Fahrenheit</option>
-        <option value="Kelvin">Kelvin</option>
-      </select>
+        <label for="from">From:</label>
+        <select name="from" id="from">
+          <option value="Celsius">Celsius</option>
+          <option value="Fahrenheit">Fahrenheit</option>
+          <option value="Kelvin">Kelvin</option>
+        </select>
 
-      <label for="to">To:</label>
-      <select name="to" id="to">
-        <option value="Fahrenheit">Fahrenheit</option>
-        <option value="Celsius">Celsius</option>
-        <option value="Kelvin">Kelvin</option>
-      </select>
+        <label for="to">To:</label>
+        <select name="to" id="to">
+          <option value="Fahrenheit">Fahrenheit</option>
+          <option value="Celsius">Celsius</option>
+          <option value="Kelvin">Kelvin</option>
+        </select>
 
-      <button id="convertBtn">Convert Unit</button>
-    </div>
-    <div class="container">
-      <p id="output"></p>
-    </div>
+        <button id="convertBtn">Convert Unit</button>
+      </div>
+      <div class="container">
+        <p id="output"></p>
+      </div>
+    </main>
+    <footer>
+      <p>
+        Contact me via email at <strong>Jespeon@gmail.com</strong> or find me as
+        <strong>jespeon</strong> on Discord.
+      </p>
+    </footer>
   </body>
 </html>

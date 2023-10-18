@@ -9,26 +9,9 @@ body {
   width: auto;
 }
 
-main {
-  min-height: 100vh;
-}
-
-nav {
-  background-color: var(--color-secondary-bg);
-  border-bottom: var(--color-main-blue) 2px solid;
-  margin-bottom: 4em;
-}
-
 /* Color on anchor hover */
 a:hover {
   background-color: var(--color-hover-bg);
-}
-
-footer {
-  background-color: var(--color-secondary-bg);
-  border-top: var(--color-main-blue) 2px solid;
-  margin-top: 4em;
-  text-align: center;
 }
 
 /* Used as a wrapper to center the content of the page. */
@@ -66,12 +49,14 @@ footer {
   }
 }
 
-iframe {
-  margin: 1em;
-}
-
 .image-border {
   border: var(--color-main-border) 2px solid;
+}
+
+.projects-thumb {
+  border: var(--color-main-border) 2px solid;
+  margin-top: 1em;
+  max-width: 80vw;
 }
 
 /* Used to make the list dots appear next to the entries instead of all the way to the left */
@@ -88,20 +73,3 @@ iframe {
   margin-top: 3em;
   margin-bottom: 3em;
 }
-
-/* Flex container for the nav bar in the header */
-.flex-container-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  height: 40px;
-  align-items: center;
-  font-size: 1.3em;
-}
-
-/* Padding for nav bar items to make the clickable div bigger. */
-.nav-item {
-  padding: 0.3em;
-}
-
-

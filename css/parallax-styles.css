@@ -1,5 +1,11 @@
 * {
   margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: auto;
+  background-color: #b1bef5;
 }
 
 h1,
@@ -46,17 +52,29 @@ h1,
 /* Background images */
 
 #road-background {
-  background-image: url(images/road.jpg);
+  background-image: url(../images/road.jpg);
 }
 
 #beach-gull-background {
-  background-image: url(images/gull_on_beach.jpg);
+  background-image: url(../images/gull_on_beach.jpg);
 }
 
 #remarkable-rocks-background {
-  background-image: url(images/remarkable_rocks.jpg);
+  background-image: url(../images/remarkable_rocks.jpg);
 }
 
 #admirals-arch-background {
-  background-image: url(images/admirals_arch.jpg);
+  background-image: url(../images/admirals_arch.jpg);
+}
+
+/* 768px Media Query Breakpoint */
+@media (max-width: 768px) {
+  .parallax {
+    height: 400px;
+  }
+
+  .content > p {
+    padding: 1em;
+    max-width: 90%;
+  }
 }
