@@ -6,7 +6,7 @@ Features HTML, CSS and Javascript.
 Sub-projects include
 - The html layout of the site itself.
 - A webpage using the Parallax effect featuring pictures taken by me :)
-- A celsius/fahrenheit/kelving converter using Javascript and especially DOM manipulation.
+- A celsius/fahrenheit/kelvin converter using Javascript and especially DOM manipulation.
 - A to-do list done in Javascript using DOM manipulation and LocalStorage.
 
   Future projects might get added to this unless they outgrow it.
