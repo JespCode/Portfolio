@@ -1,10 +1,10 @@
 //UNIT CONVERTER
 
 //Global Variables
-const fromUnit = document.getElementById("from");
-const toUnit = document.getElementById("to");
-const button = document.getElementById("convertBtn");
-const input = document.getElementById("userInput");
+const fromUnit = document.querySelector("#from");
+const toUnit = document.querySelector("#to");
+const button = document.querySelector("#convertBtn");
+const input = document.querySelector("#userInput");
 
 //Converter Function
 function convert() {
@@ -12,7 +12,7 @@ function convert() {
   const inputValue = input.value;
   const fromUnitValue = fromUnit.value;
   const toUnitValue = toUnit.value;
-  let outputText = document.getElementById("output");
+  let outputText = document.querySelector("#output");
 
   //Check if an inputValue is given.
   if (inputValue.length === 0) {
@@ -48,6 +48,8 @@ function convert() {
     } else {
       outputText.textContent = "I have no idea what you just did, but it's not gonna work!"
     }
+    //Reset placeholder text and clear the input field.
+    input.value = "";
   }
 }
 
