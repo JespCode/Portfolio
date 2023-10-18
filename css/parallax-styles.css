@@ -1,13 +1,16 @@
+/* Default to no margin and border-box */
 * {
   margin: 0;
   box-sizing: border-box;
 }
 
+/* Non-standard background color for body on this page */
 body {
   width: auto;
   background-color: #b1bef5;
 }
 
+/* Non-standard text colors and styling on this page */
 h1,
 .parallax > h2 {
   color: white;
@@ -17,6 +20,7 @@ h1,
   padding: 5px 10px;
 }
 
+/* Mainly to limit the width of <p> elements by a character limit, to prevent very long lines on wide resolutions */
 .content > p {
   padding: 1em;
   width: 70ch;
@@ -35,6 +39,7 @@ h1,
   text-align: center;
 }
 
+/* Main parallax class, this creates the scrolling effect */
 .parallax {
   height: 800px;
   background-position: center;

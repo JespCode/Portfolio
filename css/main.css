@@ -21,6 +21,7 @@ a:hover {
   margin: auto;
 }
 
+/* Flexbox used to contain the .card divs that represent projects that go on a single row in desktop view */
 .projects-flexbox {
   display: flex;
   flex-direction: row;
@@ -29,6 +30,7 @@ a:hover {
   min-width: 80vw;
 }
 
+/* Container used to make individual project entries stand out */
 .card {
   background-color: var(--color-secondary-bg);
   border: var(--color-main-blue) 1px solid;
@@ -39,6 +41,7 @@ a:hover {
   margin: 1em;
 }
 
+/* 768px breakpoint media query */
 @media only screen and (max-width: 768px) {
   .projects-flexbox {
     flex-direction: column;
@@ -49,10 +52,7 @@ a:hover {
   }
 }
 
-.image-border {
-  border: var(--color-main-border) 2px solid;
-}
-
+/* Class applied to the project thumbnail <img>s to style them in a consistent manner */
 .projects-thumb {
   border: var(--color-main-border) 2px solid;
   margin-top: 1em;

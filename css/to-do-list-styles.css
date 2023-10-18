@@ -3,16 +3,19 @@ body {
   max-width: 100%;
 }
 
+/* Class used to add padding to items added to the list */
 .task-list-item {
   padding-left: 20px;
   padding-right: 20px;
 }
 
+/* Class toggled via JS when the checkbox input next to them is clicked */
 .finished-task {
   text-decoration: line-through;
   color: #999dc2;
 }
 
+/* Styling for the delete button associated with each added task */
 .delete-button {
   background-color: #b8c1ec;
   color: var(--color-main-blue);
@@ -38,10 +41,12 @@ li {
   margin: auto;
 }
 
+/* Change the color of the outline when the main input bar is focused */
 input:focus {
   outline-color: var(--color-main-blue);
 }
 
+/* General container used for sizing and positioning of parts of the page */
 .container {
   display: flex;
   min-width: 70%;
@@ -52,16 +57,19 @@ input:focus {
   margin-bottom: 60px;
 }
 
+/* Margins for the add task button */
 #add-task {
   margin-right: 20px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
+/* Margin for the input */
 input {
   margin-right: 20px;
 }
 
+/* Margin and color for the label */
 label {
   margin-right: 20px;
   color: var(--color-main-blue);
@@ -73,37 +81,44 @@ label {
     max-width: 100%; /* Adjust as needed */
   }
 
+  /* Change flex-direction to column and increase the width of the screen used */
   .container {
     min-width: 90%; /* Adjust as needed */
     flex-direction: column;
   }
 
+  /* Added bottom margin to label to take the new flex-direction into account */
   label {
     margin-right: 20px;
     margin-bottom: 20px;
   }
 
+  /* Undoing all margins for the add task button for the new flex-direction*/
   #add-task {
     margin-right: 0px;
     padding-left: 0px;
     padding-right: 0px;
   }
 
+  /* Replacing margin-right with margin-bottom for the input for the new flex-direction */
   input {
     margin-right: 0px;
     margin-bottom: 20px;
   }
 
+  /* Standardizing size of the delete button, sizing it and overriding the default min-width of buttons */
   .delete-button {
     width: 12vw;
     padding: 5px;
     min-width: 0;
   }
 
+  /*Defining a limit on the width of the input */
   input {
     max-width: 40vw;
   }
 
+  /* Sizing and margins for buttons in general while below the breakpoint */
   button {
     min-width: 40vw;
     margin-bottom: 20px;

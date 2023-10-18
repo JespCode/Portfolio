@@ -1,5 +1,6 @@
 /* CSS for the header and footer, as they are the same on all pages. Includes min-height: 100vh for main to put the footer at the very bottom and the hover color. */
 
+/* Styling for the <nav> element itself */
 nav {
   background-color: var(--color-secondary-bg);
   border-bottom: var(--color-main-blue) 2px solid;
@@ -11,6 +12,7 @@ nav {
   padding: 0.3em;
 }
 
+/* Container for the nav bar to style the links there */
 .flex-container-nav {
   display: flex;
   flex-direction: row;
@@ -20,6 +22,7 @@ nav {
   font-size: 1.3em;
 }
 
+/* Styling for the footer */
 footer {
   background-color: var(--color-secondary-bg);
   border-top: var(--color-main-blue) 2px solid;
@@ -27,10 +30,12 @@ footer {
   text-align: center;
 }
 
+/* Ensuring the main takes up as much space as possible, keeping the footer at the bottom */
 main {
   min-height: 100vh;
 }
 
+/* Color for hovered anchors */
 a:hover {
   background-color: var(--color-hover-bg);
 }

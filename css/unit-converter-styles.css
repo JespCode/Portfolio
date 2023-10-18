@@ -16,6 +16,10 @@ input {
   margin-right: 10px;
 }
 
+input:focus {
+  outline-color: var(--color-main-blue);
+}
+
 /* 768px Media Query Breakpoint */
 @media (max-width: 768px) {
   .container {
