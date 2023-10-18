@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="css/unit-converter-styles.css" />
+    <script src="javascript/unitConverter.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Unit Converter</h1>
+    </div>
+    <div class="container">
+      <label for="userInput">Enter a value: </label>
+      <input type="number" id="userInput" />
+
+      <label for="from">From:</label>
+      <select name="from" id="from">
+        <option value="Celsius">Celsius</option>
+        <option value="Fahrenheit">Fahrenheit</option>
+        <option value="Kelvin">Kelvin</option>
+      </select>
+
+      <label for="to">To:</label>
+      <select name="to" id="to">
+        <option value="Fahrenheit">Fahrenheit</option>
+        <option value="Celsius">Celsius</option>
+        <option value="Kelvin">Kelvin</option>
+      </select>
+
+      <button id="convertBtn">Convert Unit</button>
+    </div>
+    <div class="container">
+      <p id="output"></p>
+    </div>
+  </body>
+</html>

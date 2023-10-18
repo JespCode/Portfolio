@@ -1,0 +1,25 @@
+body {
+  background-color: #caf0f8;
+}
+
+h1 {
+  color: #023e8a;
+}
+
+p {
+  color: #03045e;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+select,
+input {
+  margin-right: 10px;
+}

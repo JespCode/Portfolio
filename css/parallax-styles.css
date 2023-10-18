@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+}
+
+h1,
+.parallax > h2 {
+  color: white;
+  background-color: #192f49cc;
+  width: 100%;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.content > p {
+  padding: 1em;
+  width: 70ch;
+  overflow: hidden;
+  margin: auto;
+}
+
+.parallax > h1 {
+  font-size: 5em;
+}
+
+.content {
+  background-color: #b1bef5;
+  padding: 70px 50px;
+  text-align: center;
+}
+
+.parallax {
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullscreen {
+  height: 100vh;
+}
+
+/* Background images */
+
+#road-background {
+  background-image: url(images/road.jpg);
+}
+
+#beach-gull-background {
+  background-image: url(images/gull_on_beach.jpg);
+}
+
+#remarkable-rocks-background {
+  background-image: url(images/remarkable_rocks.jpg);
+}
+
+#admirals-arch-background {
+  background-image: url(images/admirals_arch.jpg);
+}
