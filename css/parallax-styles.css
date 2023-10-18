@@ -26,6 +26,7 @@ h1,
 
 .parallax > h1 {
   font-size: 5em;
+  color: white;
 }
 
 .content {

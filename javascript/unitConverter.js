@@ -19,7 +19,7 @@ function convert() {
     outputText.textContent = "Please enter a value!";
   } else {
     //If/else block and formulas for conversion.
-    // PRETTIER WILL LIKELY BREAK ALL FORMULAS INVOLVING FAHRENHEIT AS THE fromUnitValue OR toUnitValue! Use "prettier-ignore" for this block! 
+    // PRETTIER WILL LIKELY BREAK ALL FORMULAS INVOLVING FAHRENHEIT AS THE fromUnitValue OR toUnitValue! Use "prettier-ignore" for this block!
     // prettier-ignore
     if (fromUnitValue === "Celsius" && toUnitValue === "Kelvin") {
       outputValue = parseInt(inputValue) + 273.15;
@@ -64,3 +64,10 @@ function sameUnits() {
 button.addEventListener("click", convert);
 fromUnit.addEventListener("change", sameUnits);
 toUnit.addEventListener("change", sameUnits);
+
+// Event listener listening for the Enter button being clicked, targeting the entire document. Adds task to the list if it happens.
+document.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    convert();
+  }
+});

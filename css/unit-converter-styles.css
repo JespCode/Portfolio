@@ -2,14 +2,6 @@ body {
   background-color: var(--color-primary-bg);
 }
 
-h1 {
-  color: var(--color-text-heading);
-}
-
-p {
-  color: var(--color-main-blue);
-}
-
 .container {
   display: flex;
   flex-direction: row;
