@@ -28,6 +28,10 @@ h3 {
   font-size: 1.4em;
 }
 
+label {
+  color: var(--color-main-blue);
+}
+
 /* Used for bold text, to be used in places where strong is not expected. */
 .bold {
   font-weight: bold;

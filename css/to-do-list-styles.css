@@ -72,7 +72,6 @@ input {
 /* Margin and color for the label */
 label {
   margin-right: 20px;
-  color: var(--color-main-blue);
 }
 
 /* 768px Media Query Breakpoint*/
