@@ -35,7 +35,7 @@ main {
   min-height: 100vh;
 }
 
-/* Color for hovered anchors */
+/* Color for hovered anchors, used as a class as it is not desired for clickable thumbnails */
 a:hover {
   background-color: var(--color-hover-bg);
 }

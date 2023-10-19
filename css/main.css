@@ -9,11 +9,6 @@ body {
   width: auto;
 }
 
-/* Color on anchor hover */
-a:hover {
-  background-color: var(--color-hover-bg);
-}
-
 /* Used as a wrapper to center the content of the page. */
 .page-content {
   text-align: center;
@@ -52,11 +47,26 @@ a:hover {
   }
 }
 
-/* Class applied to the project thumbnail <img>s */
+/* Class applied to the project thumbnail <img>s. Includes transition animation. */
 .projects-thumb {
+  margin: 0.5em;
   margin-top: 1em;
   max-width: 80vw;
+  border: var(--color-main-border) 2px solid;
+  box-shadow: 0px 0px 0px 5px var(--color-main-border);
+  transition: box-shadow 0.6s linear;
 }
+
+/* Makes the border of .projects-thumb class expand on hover, and disables a:hover background-color */
+.projects-thumb:hover {
+  box-shadow: 0px 0px 0px 10px var(--color-main-border);
+}
+
+/* Class used on <a> elements that should not have a hover background */
+.no-background:hover {
+  background-color: transparent;
+}
+
 
 .image-border {
   border: var(--color-main-border) 2px solid;
