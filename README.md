@@ -13,3 +13,5 @@ Sub-projects include
 - A to-do list done in Javascript using DOM manipulation and LocalStorage.
 
   Future projects might get added to this unless they outgrow it.
+
+This particular commit is the version submitted to Kodeloftet!

@@ -1,3 +1,5 @@
+// VERSION SUBMITTED TO KODELOFTET
+
 // Global Variables - Input, button and the to-do list itself.
 const inputElement = document.querySelector("#task-input");
 const addTaskButton = document.querySelector("#add-task");

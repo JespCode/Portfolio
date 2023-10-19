@@ -1,3 +1,5 @@
+// VERSION SUBMITTED TO KODELOFTET
+
 //UNIT CONVERTER
 
 //Global Variables
