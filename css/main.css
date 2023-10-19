@@ -86,3 +86,8 @@ body {
   margin-top: 3em;
   margin-bottom: 3em;
 }
+
+/* Used to seperate <h3> elements more with a margin-top, for index.html specifcally */
+.topmargin {
+  margin-top: 2em;
+}
