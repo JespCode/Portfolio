@@ -1,5 +1,6 @@
 /* CSS related to page structuring, core portions (body etc) and whatever doesn't fit elsewhere */
 
+/* For easier sizing of elements overall */
 * {
   box-sizing: border-box;
 }
