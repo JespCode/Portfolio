@@ -1,5 +1,7 @@
 # Portfolio
 
+View the page via Netlify here: https://asn-homepage.netlify.app/
+
 Home page made while attending Kodelofted at Fontenehuset Bergen.
 Features HTML, CSS and Javascript.
 
