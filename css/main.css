@@ -52,11 +52,14 @@ a:hover {
   }
 }
 
-/* Class applied to the project thumbnail <img>s to style them in a consistent manner */
+/* Class applied to the project thumbnail <img>s */
 .projects-thumb {
-  border: var(--color-main-border) 2px solid;
   margin-top: 1em;
   max-width: 80vw;
+}
+
+.image-border {
+  border: var(--color-main-border) 2px solid;
 }
 
 /* Used to make the list dots appear next to the entries instead of all the way to the left */
