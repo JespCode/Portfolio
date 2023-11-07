@@ -1,5 +1,3 @@
-/* VERSION SUBMITTED TO KODELOFTET */
-
 /* Default to no margin and border-box */
 * {
   margin: 0;
@@ -10,6 +8,7 @@
 body {
   width: auto;
   background-color: #b1bef5;
+  margin: 0px; /*body has 8px margin by default, this removes it!*/
 }
 
 /* Non-standard text colors and styling on this page */
