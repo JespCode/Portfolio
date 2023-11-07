@@ -29,30 +29,58 @@
         <div class="container">
           <h1>Unit Converter</h1>
         </div>
+      </section>
+      <section>
         <div class="container">
           <label for="userInput">Enter a value: </label>
-          <input type="number" id="userInput" placeholder="" />
+          <input type="number" id="userInputTemp" placeholder="" />
 
           <label for="from">From:</label>
-          <select name="from" id="from">
+          <select name="fromTemp" id="fromTemp">
             <option value="Celsius">Celsius</option>
             <option value="Fahrenheit">Fahrenheit</option>
             <option value="Kelvin">Kelvin</option>
           </select>
 
           <label for="to">To:</label>
-          <select name="to" id="to">
+          <select name="toTemp" id="toTemp">
             <option value="Fahrenheit">Fahrenheit</option>
             <option value="Celsius">Celsius</option>
             <option value="Kelvin">Kelvin</option>
           </select>
 
-          <button id="convertBtn">Convert Unit</button>
+          <button id="convertBtnTemp">Convert Unit</button>
         </div>
       </section>
       <section>
         <div class="container">
-          <p id="output"></p>
+          <p id="outputTemp">&nbsp</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <label for="userInputDistance">Enter a value: </label>
+          <input type="number" id="userInputDistance" placeholder="" />
+
+          <label for="fromDistance">From:</label>
+          <select name="fromDistance" id="fromDistance">
+            <option value="Miles">Miles</option>
+            <option value="Kilometers">Kilometers</option>
+          </select>
+
+          <label for="to">To:</label>
+          <select name="toDistance" id="toDistance">
+            <option value="Kilometers">Kilometers</option>
+            <option value="Miles">Miles</option>
+          </select>
+
+          <button id="convertBtnDistance">Convert Unit</button>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <p id="outputDistance">&nbsp</p>
         </div>
       </section>
     </main>
